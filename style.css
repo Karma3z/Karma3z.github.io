@@ -1,0 +1,156 @@
+
+*{
+   margin:0;
+   padding:0;
+}
+
+/*********************************************************************/
+/******************** CAJAS SENTRO-SENTRO2 ***************************/
+/*********************************************************************/
+#sentro2{
+   margin: 0 auto;top:8px;/*8*/
+   left: 0;
+   right: 0;
+   width:600px;
+   height:60px;
+   border:1px solid transparent;
+   position:absolute;
+}
+#sentro{
+   width:503px;
+   float:right;
+   border:1px solid transparent;
+}
+
+/*****************************************************/
+/*****************  CAJA INPUT  **********************/
+/*****************************************************/
+
+#caja-buscador{
+    width:498px;
+    border:2px solid #D8F781;
+    margin-right:10%;
+}
+/************************************************************/
+/******************  CAJA INPUT  TEXT  **********************/
+/************************************************************/
+#caja-buscador input{ 
+   width: 484px; 
+   font-weight: bold;   
+   padding: 3px;         
+   font-size:33px;
+   padding:5px;
+}
+
+#caja-buscador input:focus{  
+     outline:0;  
+}
+/**************************************************************/
+/****************CAJA RESULTADO DE BUSQUEDAD*******************/
+/**************************************************************/
+.testbox{
+    font-weight:bold;
+    font-size:33px;
+    color:black;
+    padding:5px;
+    background:#D8F781;
+}
+#box{
+    
+    position:absolute;
+    font: 16px/1.5 Arial;
+    
+    
+    background:#D8F781;
+    font-family:Ubuntu;
+    font-size:20px;
+    margin-left:0%;
+    margin-top:-2px;
+    float:left;
+    
+}
+@media (max-width:670px){
+#sentro2{
+
+   width:440px; 
+
+}
+#caja-buscador input{ 
+   width: 359px; 
+
+}
+#sentro{
+   width:378px;
+   float:right;
+   
+}
+#caja-buscador{
+    width:373px;
+    
+
+}
+#box{
+    width: 377px; 
+
+}
+#atras2{
+width:440px;
+
+}}
+@media (max-width:475px){
+#sentro2{
+ 
+   width:320px; 
+
+ margin: 0 ;top:8px;/*8*/
+   left: 0;
+   
+float:left;
+   height:60px;
+   border:1px solid transparent;
+   position:absolute;
+
+
+
+}
+#caja-buscador input{ 
+   width: 239px; 
+
+}
+#caja-buscador{
+    width:253px;
+    
+
+}
+#sentro{
+   width:257px;
+  
+  
+}
+#atras2{
+margin:0;
+    left: 0;
+    
+
+  width:300px;
+height:73px;
+border:1px solid red;
+position:absolute;
+}
+#box{
+    width: 257px; 
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
