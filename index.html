@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title></title>
+
+    
+<head>
+         
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,          minimum-scale=1.0">
+ </head>
+
+
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+#imagen-logo{
+     width: 100%;
+     height: auto;
+}
+#celda{
+     border:2px solid red;
+     width:600px;
+background:black;
+}
+
+table {
+      margin: 0 auto;
+      font-family: Arial, Helvetica, snas-serif;
+      font-size:20px;
+      font-weight:bold;
+     text-align:center;
+      border-collapse:collapse;
+}
+button {
+  
+      font-family: Arial, Helvetica, snas-serif;
+      font-size:30px;
+padding:10px 10px;
+      font-weight:900;
+     text-align:center;
+}
+
+
+
+</style>
+    
+  </head>
+  <body>
+
+  
+   <div style="height:20px;"></div>
+     
+     <table >
+           <tr>
+                <td id="celda">
+                          <img src="logo.png" id="imagen-logo">
+                </td>
+           </tr> 
+           <tr>
+                <td id="celda">
+
+
+<button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button><br> 
+
+<video id="myVideo" width="100%" >
+  <source src="videoo.mp4" type="video/mp4">
+  <source src="videoo.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+
+
+
+
+
+                     
+                </td>
+           </tr>                
+        
+         
+     </table>
+
+<div style="height:30px;"></div>
+
+
+
+
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+    myVideo.play(); 
+} 
+
+function pauseVid() { 
+    myVideo.pause(); 
+} 
+</script> 
+  </body>
+</html>
+
+
+
+
+
+
